@@ -93,7 +93,10 @@ public class variableEx3 {
 		byte temp1 = 127;
 		byte temp2 = (byte)(temp1 + 1);  // int 결과를 byte로 강제 형변환
 		System.out.println("temp1 : " + temp1); // 127
-		System.out.println("temp2 : " + temp2); // 128
+		System.out.println("temp2 : " + temp2); // -128
+		
+		
+		
 		
 		
 	}
