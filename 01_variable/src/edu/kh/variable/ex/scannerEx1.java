@@ -41,12 +41,13 @@ public class scannerEx1 {
 		sc.nextLine();
 		System.out.print("문장 입력 : ");
 		String str = sc.nextLine();
+		
 		/* next() / nextInt() / nextDouble() 등을 작성한 이후에 nextLine()을 작성해야하는 상황이 오면
 		 nextLine() 구문을 미리 한번 작성하기
 		 Scanner 사용시 입력되는 값이 Scanner의 입력 버퍼라는 곳에 저장된 후
 		 nextInt() 면 버퍼에 저장된 값 중 정수만 추출. 이 때, 정수와 같이 입력된 Enter가 버퍼에 남아있게 됨
 		 이후 nextLine() 해석시 버퍼에서 다음 엔터까지 읽어오는 작업이 수행되는데
-		 버퍼에 남아있던 엔터를 읽어오기 때문에 아무것도 입력하지 못함*/
+		 버퍼에 남아있던 엔터를 읽어오기 때문에 아무것도 입력하지 못함 */
 		
 		// [해결 방법]
 		// nextLine()을 한 번 호출해서 남아있떤 Enter를 제거
