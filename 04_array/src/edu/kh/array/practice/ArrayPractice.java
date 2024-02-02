@@ -208,7 +208,7 @@ public class ArrayPractice {
 			for(int i=0 ; i<randoms.length ; i++) {
 				randoms[i] = (int)(Math.random() * 10 + 1);
 				str += randoms[i] + " ";
-			}
+			} 
 		
 
 			System.out.println("발생한 난수 : " + str);
