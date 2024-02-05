@@ -86,6 +86,7 @@ public class ArrayEx1 {
 		}
 		// 해당 구문 수행 전 break point 설정으로 멈추게 함
 		System.out.println("결과 확인");
+		System.out.println(Arrays.toString(arr));
 		
 	}
 	
