@@ -75,7 +75,14 @@ public class Child1 extends Parent{
 		return super.toString() + "\nChild1.toString() : " + computer;
 		}
 		
-		
+	
+	/* final 매서드는 오버라이딩 불가 
+	 * 
+	 * - 메서드의 기능이 변하면 안되는 경우 */
+	
+	public final void onlyChild1() {
+		System.out.println("");
+	}
 		
 	
 	
