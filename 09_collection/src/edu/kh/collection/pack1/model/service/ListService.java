@@ -6,6 +6,7 @@ import java.util.Scanner;
 import edu.kh.collection.pack1.model.dto.Book;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 // Collection (프레임 워크) : Java에서 자료구죠를 만들어서 모아둔 것
 // java.util에 존재
@@ -177,7 +178,17 @@ public class ListService {
 	 * */
 	public void BookManage () {
 		
+		
+		/* ArrayList : 배열 형태의 리스트
+		 * 장점 : 검색이 빠름
+		 * 단점 : 중간 삽입 및 제거가 어려움
+		 * 
+		 * LinkedList : 연결된 형태의 리스트(기차)
+		 * 장점 : 중간 삽입 및 제거가 빠름
+		 * 단점 : 검색이 느림 */
+		
 		List<Book> bookList = new ArrayList<Book>();
+		// ArrayList를 LinkedList로도 사용 가능(import는 해줘야함)
 		
 		Scanner sc = new Scanner(System.in);
 		

@@ -75,6 +75,7 @@ public class Child1 extends Parent{
 		return super.toString() + "\nChild1.toString() : " + computer;
 		}
 		
+		
 	
 	/* final 매서드는 오버라이딩 불가 
 	 * 
